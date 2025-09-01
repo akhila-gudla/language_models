@@ -1,0 +1,8 @@
+install venv : python3 -m venv venv
+Activate : . venv/bin/activate
+install packages: pip install -r requirement.txt ( run in bash terminal)
+
+
+hugging-face: https://huggingface.co/models
+run ui: streamlit run prompt_ui.py
+run py: python3 prompt_generator.py
