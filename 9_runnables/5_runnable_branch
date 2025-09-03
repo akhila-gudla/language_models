@@ -2,7 +2,7 @@ from langchain_perplexity import ChatPerplexity
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain.schema.runnable import RunnableBranch,RunnablePassthrough,RunnableSequence,RunnableParallel
+from langchain.schema.runnable import RunnableBranch,RunnablePassthrough,RunnableSequence
 from langchain_core.runnables import Condition
 
 # example : if the output of one runnable is too long then pass it to another runnable for summarization else just pass it as it is
