@@ -1,4 +1,5 @@
 # simply based on length it will chunk the text
+# https://chunkviz.up.railway.app/
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 text = """These missions have not only expanded our knowledge of the universe but have also
@@ -14,4 +15,4 @@ splitter = CharacterTextSplitter(
     chunk_size=100, 
     chunk_overlap=0)
 chunks = splitter.split_documents(documents)
-print(chunks)
+print(chunks[0].page_content)

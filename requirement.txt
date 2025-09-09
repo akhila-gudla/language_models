@@ -26,3 +26,4 @@ grandalf
 
 langchain_community
 bs4
+langchain_experimental
