@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "code_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease optimize the provided code titled \"{code_input}\" with the following specifications:\nFocus Areas:\n- Improve time and space complexity\n- Reduce unnecessary computations\n- Use energy-efficient data structures and algorithms\n- Remove redundant I/O operations\n- Minimize network calls and disk access\n- Increase cache locality and reduce memory churn\n- Suggest more efficient libraries or patterns\n- Keep functionality identical unless noted\n\nDeliverables:\n1. Optimized Version:\n   - Provide a refactored, energy-efficient version of the code.\n2. Explanation:\n   - Explain each improvement and why it reduces energy usage.\n3. Performance Impact:\n   - Provide a qualitative estimate of the performance or efficiency impact.\n4. Best Practices:\n   - Recommend additional methods to further reduce the carbon footprint.\n\nIf certain requested optimizations cannot be applied due to insufficient context, respond with: \"Insufficient information available\".\nEnsure the final output is clear, accurate, and adheres to the focus areas.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
